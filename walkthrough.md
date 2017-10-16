@@ -94,8 +94,18 @@ retreived from data.gov, and there are two tasks we'll peform:
 1. List the women-only schools, including in-state and out-of-state tuition.
 2. Generate a new CSV that contains all the schools in Alaska.
 
-You can see example implementations of this in `code/process_csv.py`.
+You can see example implementations of this in `code/process_csv.py`. See the
+[csv docs](https://docs.python.org/3.6/library/csv.html) for more details.
 
 ## Scrape a web page
 
+The web is full of data! But sometimes, you need to transform it from HTML
+into some other format. To see this in action, let's fetch a web page and
+parse it.
+
+See the example code in `code/scraper.py` for an example that parses Craigslist
+for bicycles for sale.
+
+See the [html.parser docs](https://docs.python.org/3.6/library/html.parser.html#example-html-parser-application)
+and [python-requests.org](http://docs.python-requests.org/en/master/#) for more details.
 

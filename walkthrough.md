@@ -88,6 +88,14 @@ install it with
 
 ## Process a CSV
 
+There's a subset of data from the [College Scorecard Data](https://catalog.data.gov/dataset/college-scorecard)
+retreived from data.gov, and there are two tasks we'll peform:
+
+1. List the women-only schools, including in-state and out-of-state tuition.
+2. Generate a new CSV that contains all the schools in Alaska.
+
+You can see example implementations of this in `code/process_csv.py`.
+
 ## Scrape a web page
 
 
